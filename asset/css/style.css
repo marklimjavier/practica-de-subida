@@ -1,0 +1,139 @@
+.cajaflez {
+    display: flex;
+
+}
+
+.menu_lateral {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    min-height: 100vh;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+.imagen_principal {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.perfil_principal {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 83%;
+    height: 35px;
+    border-color: aliceblue;
+    border-style: groove;
+
+}
+
+.contenido_perfil {
+    text-align: start;
+    display: flex;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    padding: 0px;
+    margin: 0px;
+}
+h5 {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+h6 {
+    font-family: 'Lato', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color: grey;
+    
+}
+
+
+.posicion_logotipos {
+    text-align: end;
+}
+
+.boton {
+    display: flex;
+    border-color: aliceblue;
+    border-style: groove;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 83%;
+    height: 35px;
+    margin-top: -3px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: blueviolet;
+    width: 14em;
+    height: 3rem;
+    border-color: antiquewhite;
+    color: white;
+}
+
+.perfiles_secundarios {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 83%;
+    height: 35px;
+    border-color: aliceblue;
+    border-style: groove;
+    margin-top: -3px;
+}
+
+.imagen_de_perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.contactos {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.letra {
+    text-align: initial;
+    width: 80%;
+}
+
+.contexto {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 80%;
+    min-height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_logo {
+    width: 15em;
+    height: 15em;
+    align-items: center;
+    border-radius: 5%;
+}
